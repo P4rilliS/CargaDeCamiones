@@ -1,0 +1,8 @@
+# Seguridad
+.env
+node_modules/
+
+# React / Frontend
+fabrica-frontend/node_modules/
+build/
+.DS_Store
