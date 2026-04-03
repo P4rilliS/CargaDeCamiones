@@ -15,8 +15,7 @@ function App() {
 
   const miIP = window.location.hostname; 
   const API_URL = `http://${miIP}:3000`;
-  const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY || "BBJ-cY7WS4zs-vDaRCmIjtbYNYSTgIBmhH33IEgpX0hYdywc73hdSxau4k7x6B-NzWMP81Xnx4uCvCZrKH3wOuA";
-
+  const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY
   const USUARIOS_PLANTA = {
     [process.env.REACT_APP_PIN_MARINO]: "Marino Cardenas",
     [process.env.REACT_APP_PIN_DANIEL]: "Daniel Cardenas",
