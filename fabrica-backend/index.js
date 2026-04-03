@@ -5,7 +5,7 @@ const cors = require('cors');
 const webpush = require('web-push');
 
 const app = express();
-app.use(cors());
+app.use(cors({origin:"https://suenodeangel.up.railway.app"}));
 app.use(express.json());
 
 // --- CONFIGURACIÓN DE NOTIFICACIONES ---
