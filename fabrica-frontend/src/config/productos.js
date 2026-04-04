@@ -67,6 +67,6 @@ export const COLCHONES = [
   },
   {
     modelo: "Infantil",
-    medidas: ["cama cuna x20", "cama cuna x15", "cuna x20","cuna x15","Prescolar x8", "Corral Imp","Corral"]
+    medidas: ["cama cuna x20", "cama cuna x15", "cuna x20","cuna x15","Prescolar", "Corral Imp","Corral"]
   }
 ];
