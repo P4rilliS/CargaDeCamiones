@@ -19,7 +19,8 @@ function App() {
   const USUARIOS_PLANTA = {
     [process.env.REACT_APP_PIN_MARINO]: "Marino Cardenas",
     [process.env.REACT_APP_PIN_DANIEL]: "Daniel Cardenas",
-    [process.env.REACT_APP_PIN_SERGIO]: "Sergio Parilli"
+    [process.env.REACT_APP_PIN_SERGIO]: "Sergio Parilli",
+    [process.env.REACT_APP_PIN_MILENY]: "Mileny Parilli"
   };
   // 1. Necesitamos el historial aquí arriba para compartirlo entre vistas
 const { historial } = usePedidos(API_URL, isAuthenticated);
