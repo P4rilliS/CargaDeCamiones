@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json()); // Para leer los datos que vienen del cel
 
 // Conexión a tu Mongo Atlas (reemplaza con tu link)
-mongoose.connect('mongodb+srv://admin:admin1234@clusterprueba.l2t7dwu.mongodb.net/?appName=clusterPrueba');
+mongoose.connect(process.env.MONGO_URL);
 
 const Pedido = mongoose.model('Pedido', {
     despachador: String,
